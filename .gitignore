@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# environment / secrets
+.env
+.env.*
+!.env.example
+
+# build output
+dist/
+build/
+
+# sample data with personal info
+user.json
+
+# logs / OS
+*.log
+.DS_Store
+Thumbs.db
