@@ -17,7 +17,7 @@ const useGetAllAdminJobs = () => {
           withCredentials: true,
         });
 
-        if (res.data.status) {
+        if (res.data.success) {
           setAllAdminJobs(res.data.jobs);
         } else {
           setError("Failed to fetch jobs.");

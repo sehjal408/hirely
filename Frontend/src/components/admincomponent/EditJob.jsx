@@ -37,7 +37,7 @@ const EditJob = () => {
         withCredentials: true,
       });
 
-      if (res.data.status) {
+      if (res.data.success) {
         const job = res.data.job;
 
         setInput({

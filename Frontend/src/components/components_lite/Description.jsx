@@ -54,7 +54,7 @@ const Description = () => {
           withCredentials: true,
         });
 
-        if (res.data.status) {
+        if (res.data.success) {
           setSingleJob(res.data.job);
 
           const alreadyApplied = res.data.job.applications.some(

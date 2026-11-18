@@ -19,7 +19,7 @@ const useFetchJobs = () => {
           { withCredentials: true }
         );
 
-        if (res.data.status) {
+        if (res.data.success) {
           setAllJobs(res.data.jobs);
         } else {
           setError("Failed to fetch jobs.");

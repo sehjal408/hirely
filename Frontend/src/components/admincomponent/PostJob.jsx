@@ -61,7 +61,7 @@ const PostJob = () => {
         withCredentials: true,
       });
 
-      if (res.data.status) {
+      if (res.data.success) {
         toast.success(res.data.message);
         navigate("/admin/jobs");
       } else {

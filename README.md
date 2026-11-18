@@ -19,6 +19,18 @@ Built as the final project for **CSIS 3380 – Full Stack Development with JavaS
 - View applicants for each job and accept or reject them
 - Protected admin routes, so only recruiters can reach the dashboard
 
+## Screenshots
+
+| Latest jobs (student home) | Job details |
+|---|---|
+| ![Home page with latest job openings](screenshots/home-latest-jobs.png) | ![Job details page with apply status](screenshots/job-details.png) |
+
+**Recruiter dashboard: job posts**
+
+![Recruiter view of posted jobs with edit and delete](screenshots/recruiter-jobs.png)
+
+*Screenshots use fictional demo companies and jobs.*
+
 ## Tech stack
 
 | Layer | Technologies |
